@@ -1,7 +1,7 @@
 import random
 
 
-BOARD = ['-', '-', '-', '-', '-', '-', '-', '-', '-']
+BOARD = ['-' for x in range(9)]
 GAME_IS_RUNNING = True
 WINNER = None
 CURRENT_PLAYER = 'X'
